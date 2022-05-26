@@ -1,0 +1,42 @@
+puts "Whats your Name: "
+name = gets.chomp
+puts("\nprocessing.....")
+sleep (1)
+
+puts ("\ngood!")
+puts "\nNow enter your last name:"
+last_n = gets.chomp
+puts "\nHello #{name} #{last_n}, how are you"
+
+puts "\nDID YOU DO THE END OF TERM EXAM #{name} #{last_n} 'Y' for yes and 'N' for no"
+y_n = gets.chomp
+if y_n == 'y'
+    sleep(1)
+    puts "\nvery good"
+
+puts "Now enter your Grade from the test: "
+grade = gets.chomp.to_i
+
+if grade >= 90
+    puts ("You passed, CONGRATS!! A ")
+    
+    elsif grade >= 80
+        puts ("You passed, SUPERERB B ")
+
+    elsif grade >= 70
+        puts ("You didn't do bad, C ")
+    
+    
+    else 
+        puts ("FAILED")
+    end
+    
+
+    else
+    sleep(1)
+    puts "\nThis is not good, should have tried "
+
+    
+
+end
+#-------------Will be improved soon----------------------#
