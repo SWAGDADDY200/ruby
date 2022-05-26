@@ -1,0 +1,130 @@
+
+#----------------------------------------------------------------------------#
+#-------------------STILL IN THE WORKS---------------------------------------#
+#----------------------------------------------------------------------------#
+
+puts " Well....Hello there,  my name is Narrator and I will be your guide thorugh this Journey"
+sleep(1)
+
+puts "\n\nNow without wasting time, Whats your name?"
+
+puts "First Name"
+
+f_name = gets.chomp
+
+sleep(1)
+
+puts " \n\ngood now, Last Name"
+
+l_name = gets.chomp
+
+sleep(3)
+
+puts "\n\nAmazing....... so Mr.#{l_name}, Lets being our adventure (well yours, I'm just your Narrator)"
+
+sleep(3)
+
+puts "\n Now lets being the ADVENT......,\n\nwait...I'm forgetting soomething? ummmmmmmmmmmmmmm.................. \n\nOOp Almost forgot, lets select your class"
+
+sleep(3)
+
+puts "\nNow you've got 3 choices for classes \nSlasher \nHeavy \nArcher"
+
+sleep(3)
+
+puts "\nPlease chose one (This will effect you and your decisions greatly)\n1. for Slasher \n2. for Heavy and lastly \n3. for Archer."
+choose = gets.chomp.to_i
+
+if choose == 1 
+    puts "\nYou have selected SLASHER\n\nYou have recived: DUAL SMALL SHARP AXES"
+    
+    puts "Lets being #{f_name} #{l_name}"
+
+    sleep(1)
+
+    puts "you begin walking down a path,  unaware of what might come your way\n\nTwo hours later........."
+
+    sleep(2)
+
+    puts "you spot a steam, and go to get some water to rehydrate yourself\n\nOut of nowhere BOOM! you are hit "
+
+    sleep(1)
+
+    puts "you get up to see thats its a Ogre!!, \n\nyou are shocked, but quickly regain sight of the objective"
+
+sleep(2)
+
+    puts "KILL THE OGRE!!!!!!!! \N\nyou draw your weapon and are ready to fight\n\n and so is the ogre"
+
+    sleep(2)
+
+    puts "Ogre: \nYou are no match for me #{f_name}! "
+
+    puts "\n\nYou:'how does know my name?, Don't care', \n\nYou wanna fight you ugly bastard, let's get it on!"
+
+    if choose == 1
+        puts "Qucikly #{f_name} do something\n1.Attack\n2.Get distance\n3.Swing"
+        action = gets.chomp.to_i
+        if action == 1
+            puts "Ogre is down\n Well that was quick"
+
+            elsif action == 2
+                puts "You ran away!?!?, What are you a baby?"
+
+            else 
+                puts "You missed\n The Orge Strikes back with a furious number of punches\n --------------------YOU LOSE!!-------------------"
+            
+        end
+    end
+
+sleep(3)
+
+elsif choose == 2
+    puts "\nYou have selected HEAVY \nYou have recieved: LONG HEAVY MACE"
+
+    sleep(3)
+
+else
+    puts "\nYou have selected ARCHER \N You have received: BOW AND STEEL ARROW"
+
+    sleep(3)
+
+    puts "Lets being #{f_name} #{l_name}"
+
+    sleep(3)
+
+    puts "you begin walking down a path,  unaware of what might come your way\ntwo hours later........."
+
+    sleep(2)
+
+    puts "you spot a steam, and go to get some water to rehydrate yourself\n out of nowhere BOOM! you are hit "
+
+    sleep(3)
+
+    puts "you get up to see thats its a Ogre!!, \nyou are shocked, but quickly regain sight of the objective"
+
+sleep(2)
+
+    puts "KILL THE OGRE!!!!!!!! \Nyou draw your weapon and are ready to fight\n and so is the ogre"
+
+    sleep(2)
+
+    puts "Ogre: \nYou are no match for me #{f_name}! "
+
+    puts "\nYou:'how does know my name?, Don't care', \nYou wanna fight you ugly bastard, let's get it on!"
+
+    if choose == 1
+        puts "Qucikly #{f_name} do something\n1.Attack\n2.Get distance\n3.Swing"
+        action = gets.chomp.to_i
+        if action == 1
+            puts "Ogre is down\n Well that was quick"
+
+        end
+    end
+
+
+end
+
+
+
+#-------------------STILL IN THE WORKS---------------------------------------#
